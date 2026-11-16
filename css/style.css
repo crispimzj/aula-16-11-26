@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* TOPO COM A LARANJA */
+header {
+  background-image: url("./images/mobile/image-header.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  color: white;
+  height: 550px;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+header h1 {
+  font-size: 38px;
+  margin-top: 70px;
+  letter-spacing: 5px;
+}
+
+.seta {
+  font-size: 60px;
+  margin-top: 30px;
+}
+
+/* TEXTOS */
+.texto {
+  padding: 60px 30px;
+}
+
+.texto h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  color: gray;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.texto a {
+  color: black;
+  font-weight: bold;
+  border-bottom: 5px solid yellow;
+  text-decoration: none;
+}
+
+.rosa {
+  border-bottom: 5px solid #fe7867;
+}
+
+.foto {
+  width: 100%;
+  display: block;
+}
+
+/* CEREJA E LARANJA - TEXTO EM CIMA DA FOTO */
+.cereja {
+  background-image: url("./images/mobile/image-graphic-design.jpg");
+  background-size: cover;
+  background-position: center top;
+  height: 600px;
+  padding-top: 380px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #25564b;
+}
+
+.laranja {
+  background-image: url("./images/mobile/image-photography.jpg");
+  background-size: cover;
+  background-position: center top;
+  height: 600px;
+  padding-top: 380px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #19536b;
+}
+
+.cereja h3, .laranja h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.cereja p, .laranja p {
+  line-height: 1.6;
+}
+
+/* DEPOIMENTOS */
+.depoimentos {
+  padding: 60px 30px;
+}
+
+.depoimentos h4 {
+  color: gray;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.depoimentos img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.depoimentos p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.cargo {
+  color: #aaa;
+  font-size: 14px;
+}
+
+/* GALERIA 2 EM CIMA, 2 EMBAIXO */
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galeria img {
+  width: 50%;
+  display: block;
+}
+
+/* RODAPÉ */
+footer {
+  background-color: #90d4c5;
+  color: #25564b;
+  padding: 50px 20px;
+}
+
+footer .logo {
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+footer p {
+  margin-bottom: 25px;
+}
